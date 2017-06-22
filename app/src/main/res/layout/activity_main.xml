@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tianjieyu.xiaoyuan.MainActivity">
+
+    <com.zhy.autolayout.AutoFrameLayout
+        android:id="@+id/frame_layout_main_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"></com.zhy.autolayout.AutoFrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/grey_line" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="98px"
+        android:paddingTop="16px"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/btn_youyuanren_main_activity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@drawable/youyuanren_selector"
+            android:text="@string/rabtn_string_1"
+            android:checked="true"
+            android:textColor="@color/grey_text"
+            android:textSize="22px"
+
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_liaoyixia_main_activity"
+            android:button="@null"
+            android:drawableTop="@drawable/liaoyixia_selector"
+            android:text="@string/rabtn_string_2"
+            android:textColor="@color/grey_text"
+            android:textSize="22px"
+
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_me_main_activity"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@drawable/me_selector"
+            android:text="@string/rabtn_string_3"
+            android:textColor="@color/grey_text"
+            android:textSize="22px"
+
+            />
+    </RadioGroup>
+</com.zhy.autolayout.AutoLinearLayout>

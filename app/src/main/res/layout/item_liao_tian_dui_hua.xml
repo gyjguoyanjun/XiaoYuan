@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white_liaotian"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_margin="10px"
+        android:id="@+id/left_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:background="@drawable/item_liao_tian_white_shape">
+
+        <TextView
+            android:id="@+id/left_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="我是客人"
+            android:textSize="24px"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10px"
+        android:id="@+id/right_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/item_liao_tian_green_shape">
+
+        <TextView
+            android:id="@+id/right_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="我是主人我是主人我是主人"
+            android:textColor="@color/white"
+            android:textSize="24px"/>
+    </LinearLayout>
+</LinearLayout>

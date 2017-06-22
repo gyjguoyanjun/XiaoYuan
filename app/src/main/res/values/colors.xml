@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="green">#2abcb4</color>
+    <color name="grey_line">#cdcdcd</color>
+    <color name="grey">#999999</color>
+    <color name="grey_text">#777777</color>
+    <color name="grey_divider">#f2f2f2</color>
+    <color name="black_text">#343434</color>
+    <color name="red_text">#ff415d</color>
+
+    //gyj的color
+    <color name="white">#FFFFFF</color>
+    <color name="account_login">#cb383d</color>
+    <color name="id_login">#343434</color>
+    <color name="xian">#c8c8c8</color>
+    <color name="cursor">#0000FF</color>
+    <color name="sex">#9fdaff</color>
+    <color name="pink">#fea7b7</color>
+    //jh的color
+    <color name="pink_love">#FDF1F2</color>
+    <color name="blue">#52c3ff</color>
+    <color name="pink_1">#ff3e5f</color>
+    <color name="brown">#f7b135</color>
+    <color name="light_green">#68d0ca</color>
+    <color name="light_brown">#ffcb65</color>
+    <color name="grey_edittext">#999999</color>
+    <color name="grey_time">#e8e8e8</color>
+    <color name="white_liaotian">#f4f4f4</color>
+    <color name="green_boy">#3aacf0</color>
+    <color name="pink_girl">#ff7294</color>
+    <color name="grey_btn">#e3e3e3</color>
+
+</resources>

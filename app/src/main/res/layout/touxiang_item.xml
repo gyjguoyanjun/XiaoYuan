@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="184px"
+        android:layout_marginTop="28px">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_touxiang"
+            android:layout_width="140px"
+            android:layout_height="140px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="13px"
+            android:layout_marginTop="28px"
+            android:src="@mipmap/touxiang1"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/cb_touxiang_item"
+            android:layout_width="36px"
+            android:layout_height="36px"
+            android:src="@mipmap/q4"
+            android:layout_alignBottom="@+id/image_touxiang"
+            android:layout_alignEnd="@+id/image_touxiang"/>
+
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+</LinearLayout>

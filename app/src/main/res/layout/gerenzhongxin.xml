@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:background="@color/white"
+              android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="450px"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/touxiangbj"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/touxiang"
+                android:layout_width="182px"
+                android:layout_height="182px"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="350px"
+                android:src="@mipmap/touxiang0"/>
+
+            <ImageView
+                android:layout_width="72px"
+                android:layout_height="72px"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30px"
+                android:id="@+id/iv_update_gerenzhongxin"
+                android:layout_marginTop="400px"
+                android:src="@mipmap/ic_launcher"/>
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="42px"
+            android:text="黑白记忆里的色彩"
+            android:textColor="#343434"
+            android:textSize="32px"/>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="#50bbff"
+                android:text="♂"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="26px"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5px"
+                android:text="20"
+                android:textColor="#50bbff"
+                android:textSize="26px"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:text="河南"
+                android:textColor="#fbac24"
+                android:textSize="26px"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 郑州"
+                android:textColor="#fbac24"
+                android:textSize="26px"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="44px"
+            android:background="#e6e6e6"></View>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="128px"
+            android:orientation="horizontal">
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/ly_guanzhu_gerenzhongxin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="关注"
+                    android:textSize="26px"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="48px"
+                android:layout_marginTop="42px"
+                android:background="@color/grey_text"></View>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="粉丝"
+                    android:textSize="26px"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20px"
+            android:background="@color/grey_divider"></View>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginTop="44px"
+                android:layout_marginLeft="30px"
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:src="@mipmap/ic_launcher"/>
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="50px"
+                    android:layout_marginLeft="20px"
+                    android:textSize="28px"
+                    android:textColor="#343434"
+                    android:text="我的圈子"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+            <ImageView
+                android:src="@mipmap/arr"
+                android:layout_marginTop="50px"
+                android:layout_marginRight="26px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout
+            android:orientation="horizontal"
+            android:paddingBottom="60px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_marginTop="40px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginLeft="70px"
+                    android:src="@mipmap/wangyi1"
+                    android:layout_width="74px"
+                    android:layout_height="74px"/>
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="26px"
+                        android:layout_marginLeft="18px"
+                        android:text="网易云音乐"
+                        android:textColor="#343434"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_marginTop="10px"
+                        android:textSize="24px"
+                        android:layout_marginLeft="18px"
+                        android:text="已绑定"
+                        android:textColor="@color/grey_edittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </com.zhy.autolayout.AutoLinearLayout>
+            </com.zhy.autolayout.AutoLinearLayout>
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_marginTop="40px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_marginLeft="80px"
+                        android:src="@mipmap/xiami1"
+                        android:layout_width="74px"
+                        android:layout_height="74px"/>
+                    <com.zhy.autolayout.AutoLinearLayout
+                        android:orientation="vertical"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textSize="26px"
+                            android:layout_marginLeft="18px"
+                            android:text="虾米音乐"
+                            android:textColor="#343434"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_marginTop="10px"
+                            android:textSize="24px"
+                            android:layout_marginLeft="18px"
+                            android:text="已绑定"
+                            android:textColor="@color/grey_edittext"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </com.zhy.autolayout.AutoLinearLayout>
+                </com.zhy.autolayout.AutoLinearLayout>
+            </com.zhy.autolayout.AutoLinearLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+    </ScrollView>
+</LinearLayout>
