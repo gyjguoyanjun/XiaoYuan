@@ -15,7 +15,8 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
-
+//jinhu 20:48 20170622
+    //jinhu dierci 21:06
     @BindView(R.id.btn_youyuanren_main_activity)
     RadioButton btnYouyuanrenMainActivity;
     @BindView(R.id.btn_liaoyixia_main_activity)
